@@ -17,3 +17,19 @@ function move() {
         }
     }
 } 
+function czas(czas) {
+ 
+ 
+    var date = new Date();
+    var sekundy = date.getSeconds(),
+        minuty = date.getMinutes(),
+        godziny = date.getHours();
+ 
+ 
+    if (czas == 'am' && godziny >= 12) godziny -= 12;
+ 
+ 
+    document.getElementById('zegarek').innerHTML = godziny + ' '+ minuty + ' ' +sekundy;
+ 
+ 
+}
