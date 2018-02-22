@@ -29,7 +29,7 @@ function czas(czas) {
     if (czas == 'am' && godziny >= 12) godziny -= 12;
  
  
-    document.getElementById('zegarek').innerHTML = godziny + ' '+ minuty + ' ' +sekundy;
+    document.getElementById('czas').innerHTML = godziny + ' '+ minuty + ' ' +sekundy;
  
  
 }
