@@ -1,3 +1,7 @@
 div {
     text-align: justify;
 }
+
+body {
+    transition: background-color 2s;
+}
