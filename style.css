@@ -28,8 +28,8 @@ body {
     left: 0px;
     top: 0px;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
+    background: rgba(0, 0, 0, 0);
+    color: #000000;
     width: 100%;
     padding: 0px;
 }
