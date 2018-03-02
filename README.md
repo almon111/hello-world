@@ -1,3 +1,4 @@
 # yalmonkari.github.io
 Hello!
-this is a readme file.
+This is a random readme file.
+At first it goes for an clen html css website working with some easy javascript.
