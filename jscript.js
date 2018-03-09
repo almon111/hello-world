@@ -35,3 +35,9 @@ function czas(czas) {
 }
 // Get the video
 var video = document.getElementById("myVideo");
+var app6 = new Vue({
+  el: '#app-6',
+  data: {
+    message: 'Hello Vue!'
+  }
+})
