@@ -12,13 +12,16 @@
 <input type="button" value="Przycisk zmiany koloru tła na zielony" onclick="kolor('green');">
 <input type="button" value="Przycisk zmiany koloru tła na biały" onclick="kolor('white');">
             <br>
-            <div id=app>
+            <div id=menu>
                   {{menu
-            <!--<script>
-                  document.write(menu);
-            </script>-->
                   }}
             </div>
+            var menu = new Vue({
+      el: '#menu',
+      data: {
+            message: 'Hello Vue!'
+  }
+})
       </div>
 
                         </body>
